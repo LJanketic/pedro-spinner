@@ -1,6 +1,6 @@
 body {
     background: black;
-    margin: 0;
+    margin: auto;
     height: 100vh;
 
     display: flex;
@@ -31,7 +31,7 @@ body {
 
 @keyframes bounce {
     from {
-        transform: translateY(10%)
+        transform: translateY(6%)
     } to {
         transform: translateX(-6%)
     }
