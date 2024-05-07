@@ -12,7 +12,7 @@ body {
     background: white;
     border-radius: 50%;
     overflow: hidden;
-    animation: rotate 5s linear infinite;
+    animation: rotate 4s linear infinite;
 }
 
 .bober {
