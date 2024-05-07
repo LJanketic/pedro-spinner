@@ -1,8 +1,15 @@
-.element {
+body {
     background: black;
+    margin: 0;
+    height: 100vh;
 
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40vw;
+}
+
+.element {
+    background: white;
+    border-radius: 50%;
+    overflow: hidden;
 }
