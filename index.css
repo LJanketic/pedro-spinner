@@ -13,3 +13,8 @@ body {
     border-radius: 50%;
     overflow: hidden;
 }
+
+.bober {
+    display: block;
+    width: 100%;
+}
