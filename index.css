@@ -12,9 +12,27 @@ body {
     background: white;
     border-radius: 50%;
     overflow: hidden;
+    animation: rotate 5s linear infinite;
 }
 
 .bober {
     display: block;
     width: 100%;
+    animation: bounce 0.3s linear infinite alternate;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    } to {
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes bounce {
+    from {
+        transform: translateY(10%)
+    } to {
+        transform: translateX(-6%)
+    }
 }
